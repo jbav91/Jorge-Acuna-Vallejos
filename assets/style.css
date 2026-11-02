@@ -268,6 +268,21 @@ strong { color: var(--amber); font-weight: 700; }
 .entry .entry-dates { color: var(--amber); font-size: 0.82rem; margin-bottom: 0.3rem; }
 .entry .placeholder { color: #8a8a8e; font-style: italic; }
 
+.entry-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.entry-skills .tag {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
 .sub-heading {
   color: var(--text);
   font-size: 0.95rem;
@@ -393,6 +408,9 @@ strong { color: var(--amber); font-weight: 700; }
 @media (max-width: 640px) {
   .dashboard-embed iframe { height: 420px; }
 }
+
+.dashboard-embed-linkonly { background: var(--bg-alt); }
+.dashboard-embed-linkonly .dashboard-embed-head { border-bottom: 0; }
 
 /* CONTACT */
 .contact-heading {
