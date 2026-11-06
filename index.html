@@ -18,7 +18,7 @@
   <div class="hero-photo-wrap">
     <div class="hero-photo">
       <!-- PLACEHOLDER PHOTO: replace assets/photo.jpg with your real headshot (same filename) -->
-      <img src="assets/photo.jpg" alt="Jorge Acuña Vallejos">
+      <img src="assets/photo.png" alt="Jorge Acuña Vallejos">
     </div>
   </div>
 </section>
@@ -323,6 +323,22 @@
           <a class="dashboard-embed-open" href="https://restaurant-ar-app.com/" target="_blank" rel="noopener">Visit restaurant-ar-app.com &#8599;</a>
         </div>
       </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-head">
+        <span class="project-num">07</span>
+        <h3 class="project-title">WhatsApp Expense Tracker &mdash; AI Receipt Extraction into Google Sheets</h3>
+      </div>
+      <div class="project-images no-images"></div>
+      <div class="project-body">
+        <p>Designed and built, end to end, a WhatsApp bot that turns a photo of a receipt, a PDF invoice or a one-line text note into itemized expense rows in a Google Sheet: the user sends the message, <strong>Gemini</strong> reads it into structured data, the amounts are converted to the sheet's currencies, the rows are appended to the existing spreadsheet, and the user gets a WhatsApp confirmation listing what was logged. The build covers webhook security (HMAC signature verification, sender allowlisting, idempotent retries), LLM-based document extraction with model fallback and retry, two-source currency conversion with automatic receipt reconciliation, and safe writes into a live spreadsheet that preserve the user's own formulas and category dropdowns. Delivered solo with 34 offline pytest tests and deployment configs for Render and Railway, across roughly 1,500 lines of Python.</p>
+        <div class="project-meta">
+        <div><span class="label">Role:</span> Full-Stack / Backend Developer (solo)</div>
+        <div><span class="label">Tools Used:</span> Python 3.12, FastAPI, Pydantic v2, Google Gemini API, WhatsApp Cloud API (Meta Graph API), Google Sheets API (gspread), httpx, Pillow, pytest, Render, Railway</div>
+        <div><span class="label">Domain:</span> Personal Finance Automation / Applied AI / Conversational Interfaces</div>
+        </div>
+      <div class="project-tags"><span class="tag">Personal Finance Automation</span><span class="tag">Applied AI</span><span class="tag">Conversational Interfaces</span></div>
       </div>
     </div>
 </section>
